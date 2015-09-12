@@ -10,12 +10,12 @@ require.config({
 	},
 	priority:['text','css'],
 	shim:{
-		jquery:{
-			exports:"jQuery"
-		},
-		avalon:{
-			exports:"avalon"
-		}
+//		jquery:{
+//			exports:"jQuery"
+//		},
+//		avalon:{
+//			exports:"avalon"
+//		}
 	}
 });
 require(['avalon','domReady!'],function(){
